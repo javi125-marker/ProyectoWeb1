@@ -1,0 +1,12 @@
+hmtl, body{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-principal{
+
+    background-image: url(https://st2.depositphotos.com/5677646/11127/v/450/depositphotos_111272230-stock-illustration-flat-design-concept-of-computer.jpg );
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
