@@ -42,8 +42,8 @@
 							<span class="btn btn-primary btn-sm" id="entrarSistema">Entrar</span>
 							
 							<!--Validamos si el usuario es el correcto-->
-							<?php  if(!$validar): ?>
-							<a href="registro.php" class="btn btn-danger btn-sm">Registrar</a>
+							<?php if(!$validar):  ?>
+							<a href="registro.php" class="btn btn-danger btn-sm">Registar</a>
 							<?php endif; ?>
 						</form>
 					</div>
