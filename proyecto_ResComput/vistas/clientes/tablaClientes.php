@@ -15,7 +15,7 @@
 		from clientes";
 	$result=mysqli_query($conexion,$sql);
  ?>
-
+<!--Agregamos la tabla clientes para extraer la información de nuestra base de datos  -->
 <div class="table-responsive">
 	 <table class="table table-hover table-condensed table-bordered" style="text-align: center;">
 	 	<caption><label>Clientes</label></caption>
