@@ -20,6 +20,8 @@
 	 <table class="table table-hover table-condensed table-bordered" style="text-align: center;">
 	 	<caption><label>Clientes</label></caption>
 	 	<tr>
+			<!--Aqui va el contador -->
+			
 	 		<td><b>Nombre</b></td>
 	 		<td><b>Apellido</b></td>
 	 		<td><b>Direccion</b></td>
