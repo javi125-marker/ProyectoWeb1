@@ -4,14 +4,14 @@ require_once "clases/Conexion.php";
 $obj = new conectar();
 $conexion = $obj->conexion();
 
-$sql = "SELECT * FROM usuarios WHERE email='admin'";
+$sql = "SELECT *  FROM usuarios WHERE email='admin'";
 $result = mysqli_query($conexion, $sql);
 $validar = 0;
 if (mysqli_num_rows($result) > 0) {
 	$validar = 1;
 }
 ?>
-
+<!---->
 
 <!DOCTYPE html>
 <html>
