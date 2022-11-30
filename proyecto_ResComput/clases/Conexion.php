@@ -1,7 +1,7 @@
 <?php 
 
 	class conectar{
-		private $servidor="localhost:4306";
+		private $servidor="localhost";
 		private $usuario="root";
 		private $password="";
 		private $bd="ventas";
