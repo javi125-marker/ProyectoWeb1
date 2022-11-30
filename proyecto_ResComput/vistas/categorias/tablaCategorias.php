@@ -9,7 +9,7 @@
 					FROM categorias";
 			$result=mysqli_query($conexion,$sql);
 	 ?>
-<!--Realizando la tabla de forma responsive!-->
+<!--Realizando la tabla de forma responsive!!-->
 <div class="table-responsive">
 <table class="table table-hover table-condensed table-bordered" style="text-align: center;">
 	<caption><label>Categorias</label></caption>

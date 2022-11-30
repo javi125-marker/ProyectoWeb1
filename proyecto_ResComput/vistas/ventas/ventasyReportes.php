@@ -27,7 +27,8 @@
 					<td>Fecha</td>
 					<td>Cliente</td>
 					<td>Total de compra</td>
-					
+					<td>Ticket</td>
+					<td>Reporte</td>
 				</tr>
 		<?php while($ver=mysqli_fetch_row($result)): ?>
 				<tr>
