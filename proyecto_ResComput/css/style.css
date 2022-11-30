@@ -1,0 +1,69 @@
+
+.container-fluid{
+    font-family: 'Roboto light';
+    margin-left: 50px;
+}
+
+
+.container{
+    font-family: 'Roboto light';
+}
+.extras{
+    margin: 50px;
+}
+
+.card{
+margin-bottom: 30px;
+
+}
+
+.card-title{
+    size: 20px;
+}
+.card-text{
+    size:16px;
+}
+
+.card-location{
+    size: 13px;
+}
+
+.strong{
+    color: #8b8900;
+    font-family: 'Roboto medium';
+}
+
+.button{
+    display: flex;
+    justify-content: right;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: center;
+
+}
+
+.text-center{
+    font-family: 'Roboto medium';
+    font-size: 20px;
+}
+
+#form{
+    background-color: #fff159;
+    margin: auto;
+    padding-top: 1em;
+
+}
+
+.btn-primary{
+background-color: #3483fa;
+color: white;
+border-color: transparent;
+width: 120px;
+}
+
+.pt-2{
+    font-family: 'Roboto light';
+    font-size: medium;
+}
