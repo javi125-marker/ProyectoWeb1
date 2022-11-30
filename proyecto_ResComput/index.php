@@ -26,7 +26,7 @@ if (mysqli_num_rows($result) > 0) {
 	<title>Login</title>
 </head>
 
-<body>
+<body >
 	<div class="sidenav">
 		<div class="login-main-text">
 			<h2>THOTH<br> TECH STORE</h2>

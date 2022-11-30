@@ -6,7 +6,6 @@
 
 
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,11 +13,11 @@
 	<?php require_once "menu.php"; ?>
 	<link rel="stylesheet" href="css/estilo-fondoimg.css">	
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/style.css">
 	
 	
 </head>
-<body>
+<body  style="background-color: gray;">
 
 
 	<div class="container">
