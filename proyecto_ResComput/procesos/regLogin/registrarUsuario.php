@@ -12,7 +12,7 @@
 		$_POST['usuario'],
 		$pass
 				);
-
+	//Lllamamos el objet e imprimimos los datos
 	echo $obj->registroUsuario($datos);
 
  ?>

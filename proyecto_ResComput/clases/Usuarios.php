@@ -2,8 +2,8 @@
 
 	class usuarios{
 		public function registroUsuario($datos){
-			$c=new conectar();
-			$conexion=$c->conexion();
+			$conex=new conectar();
+			$conexion=$conex->conexion();
 
 			$fecha=date('Y-m-d');
 
@@ -22,8 +22,8 @@
 			return mysqli_query($conexion,$sql);
 		}
 		public function loginUser($datos){
-			$c=new conectar();
-			$conexion=$c->conexion();
+			$conex=new conectar();
+			$conexion=$conex->conexion();
 			$password=sha1($datos[1]);
 
 			//Creamos la sesión usuario y iduser
@@ -45,8 +45,8 @@
 		}
 		//Función que obtiene el id del usuario
 		public function traeID($datos){
-			$c=new conectar();
-			$conexion=$c->conexion();
+			$conex=new conectar();
+			$conexion=$conex->conexion();
 
 			/*Calcula el hash sha1 del
 			*archivo especificado mediante filename utilizando el algoritmo de hash*/
@@ -64,8 +64,8 @@
 
 		public function obtenDatosUsuario($idusuario){
 
-			$c=new conectar();
-			$conexion=$c->conexion();
+			$conex=new conectar();
+			$conexion=$conex->conexion();
 
 			$sql="SELECT id_usuario,
 							nombre,
@@ -88,8 +88,8 @@
 		}
 
 		public function actualizaUsuario($datos){
-			$c=new conectar();
-			$conexion=$c->conexion();
+			$conex=new conectar();
+			$conexion=$conex->conexion();
 
 			$sql="UPDATE usuarios set nombre='$datos[1]',
 									apellido='$datos[2]',
@@ -99,8 +99,8 @@
 		}
 
 		public function eliminaUsuario($idusuario){
-			$c=new conectar();
-			$conexion=$c->conexion();
+			$conex=new conectar();
+			$conexion=$conex->conexion();
 
 			$sql="DELETE from usuarios 
 					where id_usuario='$idusuario'";
