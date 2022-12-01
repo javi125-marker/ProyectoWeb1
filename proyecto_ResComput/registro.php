@@ -53,7 +53,7 @@
 	</div>
 </body>
 </html>
-
+<!--Función para validar los datos vacios-->
 <script type="text/javascript">
 	$(document).ready(function(){
 		$('#registro').click(function(){
