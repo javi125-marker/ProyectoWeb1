@@ -8,7 +8,7 @@ if(isset($_SESSION['usuario'])){
 	<!DOCTYPE html>
 	<html>
 	<head>
-		<title>clientes</title>
+		<title>Clientes</title>
 		<?php require_once "menu.php"; ?>
 	</head>
 	<body>
@@ -39,9 +39,10 @@ if(isset($_SESSION['usuario'])){
 			</div>
 		</div>
 
+		<!-- Button trigger modal -->
 
 
-		<!-- Modelo -->
+		<!-- Modal -->
 		<div class="modal fade" id="abremodalClientesUpdate" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 			<div class="modal-dialog modal-sm" role="document">
 				<div class="modal-content">
@@ -107,7 +108,7 @@ if(isset($_SESSION['usuario'])){
 					success:function(r){
 						if(r==1){
 							$('#tablaClientesLoad').load("clientes/tablaClientes.php");
-							alertify.success(" Cliente eliminado con exito!!");
+							alertify.success("Eliminado con exito!!");
 						}else{
 							alertify.error("No se pudo eliminar :(");
 						}
@@ -144,9 +145,9 @@ if(isset($_SESSION['usuario'])){
 						if(r==1){
 							$('#frmClientes')[0].reset();
 							$('#tablaClientesLoad').load("clientes/tablaClientes.php");
-							alertify.success("Cliente agregado con exito!!");
+							alertify.success("Cliente agregado con exito");
 						}else{
-							alertify.error("No se pudo agregar Cliente");
+							alertify.error("No se pudo agregar cliente");
 						}
 					}
 				});
@@ -168,9 +169,9 @@ if(isset($_SESSION['usuario'])){
 						if(r==1){
 							$('#frmClientes')[0].reset();
 							$('#tablaClientesLoad').load("clientes/tablaClientes.php");
-							alertify.success("Cliente actualizado con exito :D");
+							alertify.success("Cliente actualizado con exito");
 						}else{
-							alertify.error("No se pudo actualizar Cliente");
+							alertify.error("No se pudo actualizar cliente");
 						}
 					}
 				});
