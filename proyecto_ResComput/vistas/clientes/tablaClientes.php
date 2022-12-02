@@ -35,8 +35,8 @@
 	 	<?php while($ver=mysqli_fetch_row($result)): ?>
 <!--mostrar los datos uno a uno -->
 	 	<tr>
-	 		<td><?php echo $ver[1]; ?></td>
-	 		<td><?php echo $ver[2]; ?></td>
+	 		<td><?php echo $ver[1]; ?> </td>
+			 <td><?php echo $ver[2]; ?></td>
 	 		<td><?php echo $ver[3]; ?></td>
 	 		<td><?php echo $ver[4]; ?></td>
 	 		<td><?php echo $ver[5]; ?></td>
