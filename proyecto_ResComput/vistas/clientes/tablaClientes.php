@@ -22,6 +22,7 @@
 	 	<tr>
 			<!--Aqui va el contador -->
 			
+			<td><b>#</b></td>
 	 		<td><b>Nombre</b></td>
 	 		<td><b>Apellido</b></td>
 	 		<td><b>Direccion</b></td>
@@ -32,9 +33,10 @@
 	 		<td><b>Eliminar</b></td>
 	 	</tr>
 
-	 	<?php while($ver=mysqli_fetch_row($result)): ?>
+	 	<?php $row=0; while($ver=mysqli_fetch_row($result)): ?>
 <!--mostrar los datos uno a uno -->
 	 	<tr>
+		 	<td><?php echo ++$row; ?> </td>
 	 		<td><?php echo $ver[1]; ?> </td>
 			 <td><?php echo $ver[2]; ?></td>
 	 		<td><?php echo $ver[3]; ?></td>
