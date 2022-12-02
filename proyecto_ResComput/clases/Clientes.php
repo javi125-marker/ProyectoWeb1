@@ -65,6 +65,7 @@
 			return mysqli_query($conexion,$sql);
 		}
 
+
 		public function eliminaCliente($idcliente){
 			$c= new conectar();
 			$conexion=$c->conexion();

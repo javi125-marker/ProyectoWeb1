@@ -48,7 +48,7 @@
 			</td>
 			<td>
 				<span class="btn btn-danger btn-xs" onclick="eliminarCliente('<?php echo $ver[0]; ?>')">
-					<span class="glyphicon glyphicon-remove"></span>
+					<span class="glyphicon glyphicon-trash"></span>
 				</span>
 			</td>
 	 	</tr>
